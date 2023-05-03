@@ -27,6 +27,7 @@ fun main() {
             allowMethod(HttpMethod.Delete)
             anyHost()
         }
+        //
         routing {
             get {
                 call.respond(collection.find().toList())
