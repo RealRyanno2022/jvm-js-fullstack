@@ -7,6 +7,19 @@ val logbackVersion = "1.2.11"
 val kotlinWrappersVersion = "1.0.0-pre.354"
 val kmongoVersion = "4.5.0"
 
+
+android {
+    defaultConfig {
+        applicationId="com.example.myapp"
+        minSdk = 15
+        targetSdk = 24
+        versionCode = 1
+        versionName = "1.0"
+    }
+}
+
+
+
 plugins {
     kotlin("multiplatform") version "1.7.20-Beta"
     application //to run JVM part

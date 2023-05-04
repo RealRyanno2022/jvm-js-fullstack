@@ -1,3 +1,5 @@
+package jvm-js-fullstack.src.jvmMain.kotlin.Server.kt
+
 import org.w3c.dom.HTMLFormElement
 import react.*
 import org.w3c.dom.HTMLInputElement

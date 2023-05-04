@@ -1,3 +1,5 @@
+package jvm-js-fullstack.src.jvmMain.kotlin.Server.kt
+
 import kotlinx.browser.document
 import react.create
 import react.dom.client.createRoot
